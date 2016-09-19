@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test07</title>
+</head>
+<body>
+	<h1>표 안에 표: table</h1>
+	<table border="1">
+		<thead>
+			<tr> <!-- table row -->
+				<th>번호</th>
+				<th>이름</th>
+				<th>전화</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td> <!-- table data -->
+				<td>홍길동</td>
+			   <td>
+			     <table border="1">
+			       <tbody>
+			         <tr><th>집전화</th><td>111-1111</td></tr>
+			         <tr><th>휴대전화</th><td>010-111-1111</td></tr>
+			       </tbody>
+			     </table>
+			   </td>
+			</tr>
+			<tr>
+				<td>2</td> <!-- table data -->
+				<td>임꺽정</td>
+				<td>
+           <table border="1">
+             <tbody>
+               <tr><th>집전화</th><td>111-1112</td></tr>
+               <tr><th>휴대전화</th><td>010-111-1112</td></tr>
+             </tbody>
+           </table>
+         </td>
+			</tr>
+			<tr>
+				<td>3</td> <!-- table data -->
+				<td>안중근</td>
+				<td>111-1113</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
